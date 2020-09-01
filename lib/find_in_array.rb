@@ -4,6 +4,6 @@ def find_element_index(array, value_to_find)
     if(array[x] === value_to_find)
       return true
     end
-    return false
+    return nil
   end
 end
